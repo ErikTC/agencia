@@ -62,3 +62,17 @@ p{font-size: 1.25em;}
 	max-width: 1400px;
 	margin: auto;
 }
+
+#into {
+    margin-top: 230px;
+    text-align: center;
+    font-family: Frutiger;
+    color: rgba(28,62,88,1.00);
+    font-size: 1.2em;
+}
+#into #info2 {
+    color: hsla(0,0%,0%,1.00);
+    font-family: Verdana;
+    font-size: 0.8em;
+}
+
