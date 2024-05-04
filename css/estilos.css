@@ -64,15 +64,17 @@ p{font-size: 1.25em;}
 }
 
 #into {
-    margin-top: 230px;
+    margin-top: 14.375em; /* 230px / 16px = 14.375em */
     text-align: center;
     font-family: Frutiger;
-    color: rgba(28,62,88,1.00);
-    font-size: 1.2em;
+    color: rgba(28, 62, 88, 1.00);
+    font-size: 1.2em; /* Tamaño de fuente en em */
 }
+
 #into #info2 {
-    color: hsla(0,0%,0%,1.00);
+    color: hsla(0, 0%, 0%, 1.00);
     font-family: Verdana;
-    font-size: 0.8em;
+    font-size: 0.8em; /* Tamaño de fuente en em */
 }
+
 
