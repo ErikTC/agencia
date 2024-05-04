@@ -18,7 +18,7 @@ body{
 h1 {font-size: 1em;} 
 h2 {font-size: 1.5em;}
 h3 {font-size: 1.2em;}
-p{font-size: 1.25em;}
+p{font-size: 0.8em;}
 
 
 .container{
@@ -29,7 +29,8 @@ p{font-size: 1.25em;}
 header{
     background-color: rgba(245,245,245,1.00);	
 }
-.container .logo {
+
+header .logo {
 	margin: 0;
 	padding: 25px 30px;
 }
@@ -45,8 +46,8 @@ header.container{
     flex-direction: column;
     padding-left: 159px;
     padding-top: 0px;
-    margin-top: -42px;
-	text-align: center;
+    margin-top: -53px;
+    text-align: center;
 }
 
 .topnav a {
@@ -76,10 +77,34 @@ header.container{
     color: #fff;
 }
 #into {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 15em;
+    padding-top: 82px;
+}
+#servicios .container #tituloserv {
+    text-align: center;
+    color: rgba(255,255,255,1.00);
+}
+#servicios {
+    background-color: rgba(29,62,90,1.00);
+}
+
+#servicios.container{
 	text-align: center;
-	flex-direction: column;
-	height: 60vh;
+	padding: 200px 12px;
+}
+
+#servicios .container .lista {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas si no hay suficiente espacio */
+    color: #FFFFFF;
+}
+
+.columna {
+    width: calc(23% - 1px); /* Calcula el ancho de cada columna */
+    margin: 10px; /* Añade un poco de espacio entre las columnas */
 }
