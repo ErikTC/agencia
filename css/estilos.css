@@ -15,26 +15,38 @@ body{
 	font-family: Frutiger, Verdana, "Coolvetica Compressed Hv"
 }
 
-h1 {font-size: 1.7em;} 
+h1 {font-size: 1em;} 
 h2 {font-size: 1.5em;}
 h3 {font-size: 1.2em;}
 p{font-size: 1.25em;}
+
 
 .container{
 	max-width: 1400px;
 	margin: auto;
 }
 
-
-/* Estilos generales del logo */
-#logo {
-    margin-left: 3em; /* 61px / 16px = 3.8125em */
-    margin-top: 1.625em; /* 26px / 16px = 1.625em */
+header{
+    background-color: rgba(245,245,245,1.00);	
+}
+.container .logo {
+	margin: 0;
+	padding: 25px 30px;
 }
 
-#logo #botones {
-    margin-left: 5em; /* 9px / 16px = 0.5625em */
-    margin-top: -4.4375em; /* -71px / 16px = -4.4375em */
+
+header.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container .logo #botones {
+    display: flex;
+    flex-direction: column;
+    padding-left: 159px;
+    padding-top: 0px;
+    margin-top: -42px;
+	text-align: center;
 }
 
 .topnav a {
@@ -63,17 +75,11 @@ p{font-size: 1.25em;}
     background-color: #1c3e58;
     color: #fff;
 }
-
 #into {
-    margin-top: 230px;
-    text-align: center;
-    font-family: Frutiger;
-    color: rgba(28,62,88,1.00);
-    font-size: 8px;
-}
-
-#into #info2 {
-    color: hsla(0,0%,0%,1.00);
-    font-family: Verdana;
-    font-size: 0.8em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	height: 60vh;
 }
