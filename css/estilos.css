@@ -4,38 +4,83 @@
 @import url("Acme_Regular/stylesheet.css");
 /* CSS Document */
 
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /* sirve para no agregar espacio al las contenedores cuando pongo valores de padding*/
+}
+
+/* Estilos generales del logo */
 #logo {
-    margin-left: 55px;
+    margin-left: 61px;
     margin-top: 26px;
 }
+
 #logo #botones {
-    margin-left: 69px;
+    margin-left: 9px;
     margin-top: -71px;
 }
 
+/* Estilos generales de los botones */
 .topnav a {
-    background-color: rgb(255, 255, 255); /* Color de fondo inicial */
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     float: left;
     color: #000000;
     text-align: center;
-    padding-top: 14px;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 14px;
+    padding-left: 14px;
     padding-bottom: 10px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     font-family: Frutiger;
     border-radius: 2px;
-    margin-left: 80px;
+    margin-left: 126px;
     margin-top: 15px;
-    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.70);
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.70);
+    -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.70);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.70);
     font-weight: bold;
-    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .topnav a:hover {
-    background-color: #1c3e58; /* Nuevo color de fondo */
-    color: #fff; /* Nuevo color de texto */
+    background-color: #1c3e58;
+    color: #fff;
+}
+
+/* Media query para pantallas grandes */
+@media screen and (min-width: 1024px) {
+    .topnav a {
+        font-size: 18px;
+        padding-top: 12px;
+        padding-right: 16px;
+        padding-left: 16px;
+        padding-bottom: 12px;
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    #logo {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    #logo #botones {
+        margin-left: 5px;
+        margin-top: -50px;
+    }
+
+    .topnav a {
+        font-size: 14px;
+        padding-top: 8px;
+        padding-right: 12px;
+        padding-left: 12px;
+        padding-bottom: 8px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
 }
