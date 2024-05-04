@@ -10,36 +10,45 @@
 	box-sizing: border-box; /* sirve para no agregar espacio al las contenedores cuando pongo valores de padding*/
 }
 
+
+body{
+	font-family: Frutiger, Verdana, "Coolvetica Compressed Hv"
+}
+
+h1 {font-size: 3.5em;}
+h2 {font-size: 2.7em;}
+h3 {font-size: 2em;}
+p{font-size: 1.25em;}
+
 /* Estilos generales del logo */
 #logo {
-    margin-left: 61px;
-    margin-top: 26px;
+    margin-left: 3em; /* 61px / 16px = 3.8125em */
+    margin-top: 1.625em; /* 26px / 16px = 1.625em */
 }
 
 #logo #botones {
-    margin-left: 9px;
-    margin-top: -71px;
+    margin-left: 2em; /* 9px / 16px = 0.5625em */
+    margin-top: -4.4375em; /* -71px / 16px = -4.4375em */
 }
 
-/* Estilos generales de los botones */
 .topnav a {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     float: left;
     color: #000000;
     text-align: center;
-    padding-top: 10px;
-    padding-right: 14px;
-    padding-left: 14px;
-    padding-bottom: 10px;
+    padding-top: 10px 16px; /* 10px / 16px = 0.625em */
+    padding-right: 0.875em; /* 14px / 16px = 0.875em */
+    padding-left: 0.875em; /* 14px / 16px = 0.875em */
+    padding-bottom: 0.625em; /* 10px / 16px = 0.625em */
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1em; /* 16px / 16px = 1em */
     font-family: Frutiger;
-    border-radius: 2px;
-    margin-left: 126px;
-    margin-top: 15px;
-    -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.70);
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.70);
+    border-radius: 2px; /* 2px / 16px = 0.125em */
+    margin-left: 7.5em; /* 126px / 16px = 7.875em */
+    margin-top: 0.9375em; /* 15px / 16px = 0.9375em */
+    -webkit-box-shadow: 0.0625em 0.0625em 0.0625em rgba(0, 0, 0, 0.70); /* 1px / 16px = 0.0625em */
+    box-shadow: 0.0625em 0.0625em 0.0625em rgba(0, 0, 0, 0.70); /* 1px / 16px = 0.0625em */
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -49,38 +58,7 @@
     color: #fff;
 }
 
-/* Media query para pantallas grandes */
-@media screen and (min-width: 1024px) {
-    .topnav a {
-        font-size: 18px;
-        padding-top: 12px;
-        padding-right: 16px;
-        padding-left: 16px;
-        padding-bottom: 12px;
-        margin-left: 200px;
-        margin-top: 20px;
-    }
-}
-
-/* Media query para pantallas pequeñas */
-@media screen and (max-width: 768px) {
-    #logo {
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-
-    #logo #botones {
-        margin-left: 5px;
-        margin-top: -50px;
-    }
-
-    .topnav a {
-        font-size: 12px;
-        padding-top: 8px;
-        padding-right: 12px;
-        padding-left: 12px;
-        padding-bottom: 8px;
-        margin-left: 30px;
-        margin-top: 10px;
-    }
+.container{
+	max-width: 1400px;
+	margin: auto;
 }
