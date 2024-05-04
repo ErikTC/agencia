@@ -1,0 +1,42 @@
+@charset "utf-8";
+@import url("RobotoSlab_VariableFont_wght/stylesheet.css");
+@import url("Frutiger/stylesheet.css");
+@import url("Acme_Regular/stylesheet.css");
+/* CSS Document */
+
+#logo {
+    margin-left: 55px;
+    margin-top: 26px;
+}
+#logo #botones {
+    margin-left: 69px;
+    margin-top: -71px;
+}
+
+.topnav a {
+	background-color: rgb(255, 255, 255); /* Color de fondo inicial */
+    overflow: hidden;
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding-top: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Frutiger;
+    border-radius: 2px;
+    margin-left: 125px;
+    margin-top: 15px;
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.70);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.70);
+    font-weight: bold;
+	transition: background-color 0.3s, color 0.3s; /* Transición suave */
+
+}
+
+.topnav a:hover {
+    background-color: #1c3e58; /* Nuevo color de fondo */
+    color: #fff; /* Nuevo color de texto */
+}
