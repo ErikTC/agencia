@@ -105,6 +105,6 @@ header.container{
 }
 
 .columna {
-    width: calc(23% - 1px); /* Calcula el ancho de cada columna */
+    
     margin: 10px; /* Añade un poco de espacio entre las columnas */
 }
