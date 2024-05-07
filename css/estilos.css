@@ -12,6 +12,10 @@
 	box-sizing: border-box; /* sirve para no agregar espacio al las contenedores cuando pongo valores de padding*/
 }
 
+html{
+	scroll-behavior: border-box,
+}
+
 
 body{
 	font-family: Frutiger, Verdana, "Coolvetica Compressed Hv"
@@ -98,6 +102,9 @@ header.container{
     background-color: #1c3e58;
     color: #fff;
 }
+
+/* estilos seccion 1 */
+
 #into {
     display: flex;
     align-items: center;
@@ -110,15 +117,6 @@ header.container{
     padding-top: 177px;
 }
 
-#servicios .container #tituloserv {
-    text-align: center;
-    color: rgba(255,255,255,1.00);
-}
-.container #tituloserv h1 {
-    font-family: Verdana;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
 #servicios {
     background-color: rgba(29,62,90,1.00);
@@ -129,6 +127,11 @@ header.container{
     padding-right: 12px;
     padding-left: 12px;
 }
+#servicios .container h1 {
+    text-align: center;
+    color: #F5F5F5;
+}
+
 
 #servicios .container .lista {
     display: flex;
@@ -142,14 +145,9 @@ header.container{
 .columna {
     width: calc(20% - 1px); /* Calcula el ancho de cada columna */
     margin-top: 10px;
-    margin-right: 50px;
-    margin-left: 10px;
+    margin-right: 35px;
+    margin-left: 35px;
     margin-bottom: 10px;
-}
-.lista .columna h1 {
-    text-align: center;
-    font-family: Verdana;
-    color: rgba(255,255,255,1.00);
 }
 
 
@@ -158,8 +156,15 @@ header.container{
     color: rgba(255,255,255,1.00);
     font-family: Verdana;
     font-size: 0.8em;
+	
 
 }
+.lista .columna h2 {
+    color: #F3C71E;
+    font-family: Verdana;
+    text-align: center;
+}
+
 .lista .columna ul {
     color: rgba(255,255,255,1.00);
     font-family: Verdana;
@@ -167,10 +172,11 @@ header.container{
 }
 
 .lista .columna img {
-    text-align: left;
-    margin-left: 20px;
     border-radius: 15px; /* Alto original de las imágenes */
     transition: transform 0.3s ease;
+    text-align: left;
+    margin-left: 39px;
+    border: 2px solid rgba(243,199,30,1.00);
 }
 
 /* Estilos para las imágenes cuando el cursor está sobre ellas */
@@ -178,63 +184,187 @@ header.container{
     transform: scale(1.1); /* Aumenta la escala de la imagen al 110% */
 }
 
+/* estilos para el boton de mas informacion de servicios */
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F3C71E;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
+
+/* Estilos para el CTA cuando se pasa el cursor */
+.cta:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+
+#servicios .container .info {  /* boton mas informaciom */
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* estilos seccion equipo */
+
+#equipo{
+    background-color: rgba(245,245,245,1.00)
+}
+
 #equipo.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	padding: 100px 0px;
+}
+
+#equipo .container h1 {   /* titulo somos */
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+#fachada{              /* imagen fachada */
+    width: 400px;
+    padding-right: 15px;
+    padding-top: 30px;
+    margin-left: 62px;
+}
+
+#equipo .container p {      /* descripcion somos */
+    text-align: justify;
+    margin-top: -166px;
+    font-family: Verdana;
+    padding-right: 25px;
+    font-size: 0.86em;
+    margin-left: 501px;
+}
+
+
+#equipo .container h1 {
+    margin-top: 80px;
+    color: rgba(29,62,90,1.00);
+}
+
+/* estilos para imagenes con circulos */
+
+.container .somos .circle {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    overflow: hidden;
+    margin-right: 86px;
+    margin-left: 147px;
+    margin-bottom: 55px;
+    margin-top: 47px;
+}
+#equipo .container .somos {
+    margin-top: 45px;
+    background-color: rgba(245,245,245,1.00);
+    color: rgba(245,245,245,1.00);
+}
+.container .somos h2 {
+    color: rgba(0,0,0,1.00);
+    text-align: center;
+}
+
+
+
+.somos .circle img {
+	 width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.circle:hover img {
+    transform: scale(1.1);
+}
+
+.somos.circle p {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.circle:hover p {
+    opacity: 1;
+}
+#proyectos {
+    background-color: rgba(25,25,25,1.00);
+	
+}
+
+#proyectos.container{
 	display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
-}
-#equipo .container h1 {
-    padding-top: 0px;
-    margin-top: -177px;
-    font-family: Verdana;
 }
 
 
-
-#equipo .container h2 {
+#proyectos .container h1 {
+    color: rgba(255,255,255,1.00);
     text-align: center;
-    padding-right: 12px;
-    padding-left: 12px;
-    padding-bottom: 151px;
-    color: rgba(0,0,0,1.00);
-    padding-top: 50px;
+    padding-top: 28px;
 }
-#equipo .container p {
-    margin-left: 479px;
-    margin-top: 66px;
+
+#proyectos .container #p1 {
+    margin-left: 48px;
+    margin-top: 28px;
 }
-#equipo .container h2 {
-    margin-top: 47px;
+
+.container #p1 h2 {
+    color: rgba(255,255,255,1.00);
+    margin-left: 70px;
+}
+.container #p2 h2 {
+    text-align: left;
+    margin-left: 70px;
+    color: rgba(255,255,255,1.00);
+}
+.container #p3 h2 {
+    margin-left: 70px;
+    color: rgba(255,255,255,1.00);
 }
 
 
-#fachada{
-    width: 437px;
-    padding-left: 15px;
-    margin-top: -122px;
-    padding-right: 15px;
+
+
+#proyectos .container #p2 {
+    margin-left: 439px;
+    margin-top: -260px;
 }
 
-#equipo .container hr {
-    margin-top: -282px;
-    color: rgba(29,62,90,1.00);
-}
-.container #integrantes h2 {
-    margin-top: 18px;
-}
-
-#jose{
-	width: 150px;
-}
-.container #integrantes #jose {
-    padding-left: 15px;
-    margin-top: -86px;
-    border-radius: 48px;
+#proyectos .container #p3 {
+    margin-left: 828px;
+    margin-top: -260px;
 }
 
 
-.container #integrantes h2 {
-    font-family: Frutiger;
+
+
+
+#pr{
+    width: 350px;
+}
+#pro2{
+	width: 350px;
+}
+#pro3{
+	width: 350px;
 }
