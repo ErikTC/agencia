@@ -130,6 +130,7 @@ header.container{
 #servicios .container h1 {
     text-align: center;
     color: #F5F5F5;
+    margin-top: 9px;
 }
 
 
@@ -145,8 +146,8 @@ header.container{
 .columna {
     width: calc(20% - 1px); /* Calcula el ancho de cada columna */
     margin-top: 10px;
-    margin-right: 35px;
-    margin-left: 35px;
+    margin-right: 25px;
+    margin-left: 24px;
     margin-bottom: 10px;
 }
 
@@ -220,25 +221,35 @@ header.container{
     align-items: center;
     justify-content: center;
     text-align: center;
-	padding: 100px 0px;
+    padding-top: 90px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 100px;
 }
 
 #equipo .container h1 {   /* titulo somos */
-    padding-top: 30px;
     text-align: center;
 }
+#equipo .container hr {
+    margin-top: 82px;
 
-
-#fachada{              /* imagen fachada */
-    width: 400px;
-    padding-right: 15px;
-    padding-top: 30px;
-    margin-left: 62px;
 }
+
+
+
+
+#equipo .container #fachada {
+	width: 400px;
+    margin-left: 62px;
+    margin-top: 12px;
+    border-radius: 20px;
+    border: 2px solid rgba(29,62,90,1.00);
+}
+
 
 #equipo .container p {      /* descripcion somos */
     text-align: justify;
-    margin-top: -166px;
+    margin-top: -195px;
     font-family: Verdana;
     padding-right: 25px;
     font-size: 0.86em;
@@ -249,6 +260,7 @@ header.container{
 #equipo .container h1 {
     margin-top: 80px;
     color: rgba(29,62,90,1.00);
+    padding-top: 57px;
 }
 
 /* estilos para imagenes con circulos */
@@ -261,7 +273,7 @@ header.container{
     border-radius: 60%;
     overflow: hidden;
     margin-right: 86px;
-    margin-left: 147px;
+    margin-left: 84px;
     margin-bottom: 55px;
     margin-top: 47px;
 }
@@ -270,8 +282,12 @@ header.container{
     background-color: rgba(245,245,245,1.00);
     color: rgba(245,245,245,1.00);
 }
-.container .somos h2 {
+.container .somos h3{
     color: rgba(0,0,0,1.00);
+    font-family: Verdana;
+    font-size: 0.7em;
+    padding-left: 25px;
+    padding-right: 20px;
     text-align: center;
 }
 
@@ -304,9 +320,12 @@ header.container{
 .circle:hover p {
     opacity: 1;
 }
+
+/* estilos para imagenes proyectos */
+
 #proyectos {
     background-color: rgba(25,25,25,1.00);
-	
+    height: 68em;
 }
 
 #proyectos.container{
@@ -316,47 +335,73 @@ header.container{
     text-align: center;
 }
 
+/* estilos titulo */
 
 #proyectos .container h1 {
     color: rgba(255,255,255,1.00);
     text-align: center;
     padding-top: 28px;
+    padding-bottom: 26px;
 }
 
+/* imagen1 */
 #proyectos .container #p1 {
     margin-left: 48px;
-    margin-top: 28px;
+    margin-top: 38px;
 }
 
 .container #p1 h2 {
     color: rgba(255,255,255,1.00);
     margin-left: 70px;
+    padding-top: 7px;
 }
 .container #p2 h2 {
     text-align: left;
-    margin-left: 70px;
+    margin-left: 143px;
     color: rgba(255,255,255,1.00);
+    padding-top: 7px;
 }
 .container #p3 h2 {
     margin-left: 70px;
     color: rgba(255,255,255,1.00);
+    padding-top: 7px;
+}
+.container #p5 h2 {
+    color: rgba(255,255,255,1.00);
+    text-align: center;
 }
 
 
-
-
+/* imagen2 */
 #proyectos .container #p2 {
     margin-left: 439px;
-    margin-top: -260px;
+    margin-top: -275px;
 }
-
+/* imagen3 */
 #proyectos .container #p3 {
     margin-left: 828px;
-    margin-top: -260px;
+    margin-top: -453px;
+}
+#proyectos .container #p5 {
+    margin-left: 832px;
+    margin-top: -565px;
+}
+#proyectos .container #p4 {
+    margin-top: 40px;
+    margin-left: 48px;
+}
+#proyectos .container #p6 {
+    margin-left: 528px;
+    margin-top: -351px;
 }
 
 
 
+.container #p4 h2 {
+    color: rgba(255,255,255,1.00);
+    margin-left: 63px;
+    padding-top: 7px;
+}
 
 
 #pr{
@@ -367,4 +412,137 @@ header.container{
 }
 #pro3{
 	width: 350px;
+}
+
+#pro4{
+	width: 350px;
+}
+
+#pro5{
+	width: 350px;
+}
+
+#pro6{
+	width: 200px;	
+}
+
+
+/* estilos cotizacion */
+
+#cotizacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(245,245,245,1.00);
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#cotizacion .container h1 {
+    padding-top: 34px;
+    padding-bottom: 30px;
+    color: rgba(29,62,90,1.00);
+}
+#cotizacion .container h2 {
+    color: rgba(25,25,25,1.00);
+}
+.container form p {
+    font-family: Verdana;
+}
+
+#cotizacion .container form {
+    height: 300px;
+    width: 300px;
+    margin-top: 59px;
+    margin-right: 46px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    top: 0px;
+    background-color: hsla(208,51%,23%,1.00);
+    margin-left: 200px;
+    padding-top: 20px;
+    color: rgba(255,255,255,1.00);
+    border-radius: 12px;
+}
+#cotizacion .container img {
+    margin-left: 576px;
+    margin-top: -508px;
+    height: auto;
+    width: 80px;
+}
+
+
+form p #radio {
+    margin-top: 8px;
+    color: rgba(255,255,255,1.00);
+}
+form p #submit {
+    margin-top: 20px;
+}
+
+
+
+label {
+    display: inline-block;
+    width: 100px; /* Ancho fijo para las etiquetas */
+    text-align: left; /* Alineación del texto a la derecha */
+    margin-right: 20px; /* Margen derecho para separación */
+    padding-top: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 200px; /* Ancho fijo para las cajas de texto */
+    padding: 5px; /* Espaciado interno */
+}
+
+
+footer{
+    display: flex;
+   
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(29,62,90,1.00);
+    
+}
+.footer .container {
+    height: 8em;
+}
+.footer .container #pro8 {
+    padding-left: 15px;
+    padding-top: 30px;
+    margin-left: 12px;
+    margin-top: 14px;
+}
+.footer .container p {
+    color: rgba(255,255,255,1.00);
+    margin-top: -30px;
+}
+
+
+
+#pro8{
+    width: 150px;
+}
+
+/* Estilos para el contenedor de las redes sociales */
+.redes-sociales {
+    margin-top: 20px; /* Espacio entre el texto del footer y los íconos de las redes sociales */
+    padding-top: 10px;
+}
+
+/* Estilos para los enlaces de las redes sociales */
+.redes-sociales a {
+    display: inline-block; /* Mostrar los enlaces en línea uno al lado del otro */
+    margin-right: 10px; /* Espacio entre los íconos de las redes sociales */
+}
+
+/* Estilos para las imágenes de las redes sociales */
+.redes-sociales img {
+    width: 30px; /* Ancho de los íconos de las redes sociales */
+    height: auto; /* Altura automática para mantener la proporción */
 }
