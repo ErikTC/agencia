@@ -230,10 +230,6 @@ header.container{
 #equipo .container h1 {   /* titulo somos */
     text-align: center;
 }
-#equipo .container hr {
-    margin-top: 82px;
-
-}
 
 
 
@@ -325,6 +321,7 @@ header.container{
 
 #proyectos {
     background-color: rgba(25,25,25,1.00);
+    height: 69em;
 }
 
 #proyectos.container{
