@@ -268,12 +268,12 @@ header.container{
 .container .somos .circle {
     position: relative;
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 60%;
     overflow: hidden;
     margin-right: 86px;
-    margin-left: 84px;
+    margin-left: 138px;
     margin-bottom: 55px;
     margin-top: 47px;
 }
@@ -284,7 +284,7 @@ header.container{
 .container .somos h3{
     color: rgba(0,0,0,1.00);
     font-family: Verdana;
-    font-size: 0.7em;
+    font-size: 1em;
     padding-left: 25px;
     padding-right: 20px;
     text-align: center;
@@ -358,7 +358,7 @@ header.container{
 }
 .container #p2 h2 {
     text-align: left;
-    margin-left: 143px;
+    margin-left: 96px;
     color: rgba(255,255,255,1.00);
     padding-top: 7px;
 }
@@ -370,49 +370,84 @@ header.container{
 
 /* imagen2 */
 #proyectos .container #p2 {
-    margin-left: 439px;
     padding-top: 11px;
+    width: 1176px;
+    margin-left: 30px;
+    height: 326px;
+    margin-top: 10px;
 }
 #proyectos .container #p5 {
-    margin-left: 832px;
-    margin-top: -565px;
+    margin-left: 775px;
+    margin-top: -847px;
+    width: 285px;
+    height: 285px;
 }
 #proyectos .container #p4 {
-    margin-left: 48px;
-    margin-top: -340px;
+    width: 276px;
+    height: 463px;
+    padding-left: 330px;
+    top: 84px;
+}
+.container #p2 #pro11 {
+    margin-left: 573px;
+    margin-top: -98px;
+}
+
+
+#proyectos .container #p1 {
+   
 }
 
 
 
 .container #p4 h2 {
     color: rgba(255,255,255,1.00);
-    margin-left: 63px;
+    margin-left: 124px;
     padding-top: 7px;
 }
+.container #p2 h2 {
+    margin-left: 35px;
+}
+.container #p2 #pro5 {
+    margin-left: 147px;
+}
+
+
 
 
 #pr{
-    width: 350px;
+    width: 280px;
 }
 #pro2{
-	width: 350px;
+    width: 280px;
 }
 #pro3{
-	width: 350px;
+	width: 280px;
 }
 
 #pro4{
-	width: 350px;
+	width: 280px;
 }
 
 #pro5{
-	width: 350px;
+	width: 280px;
 }
 
 #pro6{
 	width: 200px;	
 }
-
+#pro1{
+	width: 200px;	
+}
+#pro7{
+	width: 150px;	
+}
+#pro11{
+	width: 150px;	
+}
+#pro10{
+	width:200px;
+}
 
 /* estilos cotizacion */
 
@@ -422,7 +457,7 @@ header.container{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    background-color: rgba(245,245,245,1.00);
+    background-color: rgba(245,245,245,1.00);			
     padding-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
@@ -440,8 +475,8 @@ header.container{
 }
 
 #cotizacion .container form {
-    height: 300px;
-    width: 300px;
+    height: 348px;
+    width: 375px;
     margin-top: 59px;
     margin-right: 46px;
     padding-right: 10px;
@@ -467,7 +502,7 @@ form p #radio {
     color: rgba(255,255,255,1.00);
 }
 form p #submit {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 
@@ -487,6 +522,7 @@ input[type="email"] {
 }
 
 
+
 footer{
     display: flex;
    
@@ -496,6 +532,7 @@ footer{
     background-color: rgba(29,62,90,1.00);
     
 }
+
 .footer .container {
     height: 8em;
 }
@@ -532,4 +569,39 @@ footer{
 .redes-sociales img {
     width: 30px; /* Ancho de los íconos de las redes sociales */
     height: auto; /* Altura automática para mantener la proporción */
+}
+.container #p2 #pro2 {
+    margin-left: 1px;
+}
+.container #p2 #pro10 {
+    margin-left: 780px;
+    margin-top: -71px;
+}
+
+.container #p2 #pro7 {
+    margin-left: 329px;
+    margin-top: -135px;
+}
+.container #p2 #pro8 {
+    margin-left: 557px;
+    margin-top: -92px;
+}
+
+
+.container #p2 #pro1 {
+    margin-top: 90px;
+    margin-left: 74px;
+}
+
+.container #p2 #pro4 {
+    margin-left: 329px;
+    margin-top: -378px;
+}
+.container #p2 #pro5 {
+    margin-left: 657px;
+    margin-top: -442px;
+}
+.container #p2 #pro3 {
+    margin-left: 1001px;
+    margin-top: -435px;
 }
