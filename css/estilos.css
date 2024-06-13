@@ -255,14 +255,25 @@ header.container{
     font-size: 0.86em;
     margin-left: 501px;
 }
-
-
-#equipo .container h1 {
-    color: rgba(0,0,0,1.00);
-    padding-top: 46px;
+.somos .equipo.trabajo h3 {
+    color: rgba(245,245,245,1.00);
+    margin-left: 12px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
     text-align: center;
-    padding-bottom: 16px;
+    margin-top: 23px;
 }
+.equipo.trabajo h3 .color-acento {
+    color: rgba(245,245,245,1.00);
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+
+
+
+
+
 
 /* estilos para imagenes con circulos */
 
@@ -279,8 +290,18 @@ header.container{
     margin-top: 47px;
 }
 .container .somos .equipo.trabajo {
-    margin-top: 128px;
+    margin-top: 204px;
+    background-color: rgba(29,62,90,0.90);
+	
 }
+#equipo .container h1 {
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+    margin-top: 121px;
+}
+
+
+
 
 #equipo .container .somos {
     background-color: rgba(245,245,245,1.00);
@@ -352,7 +373,7 @@ header.container{
 
 /* imagen1 */
 #proyectos .container #p1 {
-    margin-left: 48px;
+    margin-left: 35px;
     margin-top: 38px;
 }
 
@@ -377,12 +398,12 @@ header.container{
 #proyectos .container #p2 {
     padding-top: 11px;
     width: 1176px;
-    margin-left: 30px;
+    margin-left: 15px;
     height: 326px;
     margin-top: 10px;
 }
 #proyectos .container #p5 {
-    margin-left: 775px;
+    margin-left: 771px;
     margin-top: -847px;
     width: 285px;
     height: 285px;
@@ -390,11 +411,11 @@ header.container{
 #proyectos .container #p4 {
     width: 276px;
     height: 463px;
-    padding-left: 330px;
+    padding-left: 319px;
     top: 84px;
 }
 .container #p2 #pro11 {
-    margin-left: 573px;
+    margin-left: 617px;
     margin-top: -98px;
 }
 
@@ -448,7 +469,7 @@ header.container{
 	width: 150px;	
 }
 #pro11{
-	width: 150px;	
+	width: 200px;	
 }
 #pro10{
 	width:200px;
@@ -471,9 +492,11 @@ header.container{
     padding-top: 34px;
     padding-bottom: 30px;
     color: rgba(29,62,90,1.00);
+    font-family: Verdana;
 }
 #cotizacion .container h2 {
     color: rgba(25,25,25,1.00);
+    font-family: Verdana;
 }
 .container form p {
     font-family: Verdana;
@@ -482,14 +505,14 @@ header.container{
 #cotizacion .container form {
     height: 257px;
     width: 375px;
-    margin-top: 59px;
+    margin-top: 87px;
     margin-right: 46px;
     padding-right: 10px;
     padding-bottom: 20px;
     padding-left: 10px;
     top: 0px;
     background-color: hsla(208,51%,23%,1.00);
-    margin-left: 200px;
+    margin-left: 285px;
     padding-top: 20px;
     color: rgba(255,255,255,1.00);
     border-radius: 12px;
@@ -539,7 +562,7 @@ footer{
 }
 
 .footer .container {
-    height: 8em;
+    height: 18em;
 }
 .footer .container #pro8 {
     padding-left: 15px;
@@ -555,13 +578,15 @@ footer{
 
 
 #pro8{
-    width: 150px;
+    width: 200px;
 }
 
 /* Estilos para el contenedor de las redes sociales */
 .redes-sociales {
     margin-top: 20px; /* Espacio entre el texto del footer y los íconos de las redes sociales */
     padding-top: 10px;
+    width: 140px;
+    margin-left: 641px;
 }
 
 /* Estilos para los enlaces de las redes sociales */
@@ -569,18 +594,28 @@ footer{
     display: inline-block; /* Mostrar los enlaces en línea uno al lado del otro */
     margin-right: 10px; /* Espacio entre los íconos de las redes sociales */
 }
+.info.footer {
+    padding-top: 13px;
+    width: 208px;
+    margin-top: -155px;
+    padding-bottom: 26px;
+    margin-left: 15px;
+}
+
 
 /* Estilos para las imágenes de las redes sociales */
 .redes-sociales img {
-    width: 30px; /* Ancho de los íconos de las redes sociales */
+    width: 45px; /* Ancho de los íconos de las redes sociales */
     height: auto; /* Altura automática para mantener la proporción */
 }
+
+
 .container #p2 #pro2 {
     margin-left: 1px;
 }
 .container #p2 #pro10 {
-    margin-left: 780px;
-    margin-top: -71px;
+    margin-left: 902px;
+    margin-top: -100px;
 }
 
 .container #p2 #pro7 {
@@ -599,15 +634,15 @@ footer{
 }
 
 .container #p2 #pro4 {
-    margin-left: 329px;
+    margin-left: 299px;
     margin-top: -378px;
 }
 .container #p2 #pro5 {
-    margin-left: 657px;
+    margin-left: 600px;
     margin-top: -442px;
 }
 .container #p2 #pro3 {
-    margin-left: 1001px;
+    margin-left: 901px;
     margin-top: -435px;
 }
 .container #p2 #pro10 {
@@ -619,12 +654,33 @@ footer{
 .container #personaje img {
     width: 327px;
     height: 319px;
-    margin-left: 690px;
-    margin-top: -310px;
+    margin-left: 750px;
+    margin-top: -306px;
 }
 
 
 
 #pro13{
 	width:100px;
+}
+.container .logo a {
+    margin-left: 101px;
+}
+.container #whatsap {
+    width: 15px;
+    height: 62px;
+    margin-left: 1002px;
+    margin-top: -71px;
+    padding-left: 37px;
+}
+.logo #whatsap h2 {
+    text-align: center;
+}
+#equipo .container h1 {
+    color: rgba(255,255,255,1.00);
+}
+.info.footer h1 {
+    color: rgba(255,255,255,1.00);
+    font-family: Verdana;
+    font-size: small;
 }
