@@ -256,7 +256,7 @@ header.container{
     margin-left: 501px;
 }
 .somos .equipo.trabajo h3 {
-    color: rgba(245,245,245,1.00);
+    color: rgba(25,25,25,1.00);
     margin-left: 12px;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
     font-style: normal;
@@ -291,11 +291,11 @@ header.container{
 }
 .container .somos .equipo.trabajo {
     margin-top: 204px;
-    background-color: rgba(29,62,90,0.90);
+    background-color: rgba(245,245,245,1.00);
 	
 }
 #equipo .container h1 {
-    color: rgba(255,255,255,1.00);
+    color: rgba(25,25,25,1.00);
     text-align: center;
     margin-top: 121px;
 }
@@ -351,15 +351,21 @@ header.container{
 /* estilos para imagenes proyectos */
 
 #proyectos {
-    background-color: rgba(25,25,25,1.00);
+    background-color: rgba(29,62,90,1.00);
     height: 53em;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    border-color: rgba(243,199,30,1.00);
+    border-style: double;
+    border-radius: 2;
 }
 
 #proyectos.container{
-	display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: rgba(245,245,245,1.00);
 }
 
 /* estilos titulo */
@@ -677,7 +683,7 @@ footer{
     text-align: center;
 }
 #equipo .container h1 {
-    color: rgba(255,255,255,1.00);
+    color: rgba(29,62,90,1.00);
 }
 .info.footer h1 {
     color: rgba(255,255,255,1.00);
